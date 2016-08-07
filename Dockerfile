@@ -15,4 +15,4 @@ RUN apt-get install -y --no-install-recommends \
 
 RUN mkdir /tmp/build
 
-ONBUILD RUN rm /tmp/build/* -rf
+ONBUILD RUN rm /tmp/build -rf
