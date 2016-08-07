@@ -13,4 +13,4 @@ RUN apt-get install -y --no-install-recommends \
     libkrb5-dev \
     uuid-dev
 
-ONBUILD rm /tmp/* -rf
+ONBUILD RUN rm /tmp/* -rf
