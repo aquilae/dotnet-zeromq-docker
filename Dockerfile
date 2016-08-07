@@ -18,3 +18,5 @@ RUN cd /tmp/build \
     && make \
     && make install \
     && ldconfig
+
+RUN rm /tmp/build -rf
