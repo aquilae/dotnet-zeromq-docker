@@ -14,5 +14,3 @@ RUN apt-get install -y --no-install-recommends \
     uuid-dev
 
 RUN mkdir /tmp/build
-
-ONBUILD RUN rm /tmp/build -rf
